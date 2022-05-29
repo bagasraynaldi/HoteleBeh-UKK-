@@ -11,10 +11,10 @@
             <div class="col-lg-6">
                 <h2 class="display-5 fw-bold lh-1 mb-3">{{ $room->room_type }}</h2>
                 <p class="lead">{{ $room->description }}</p>
-                <p class="lead">Fasilitas : </p>
+                <!-- <p class="lead">Fasilitas : </p>
                 <ul>
                     <li>{{ $room->facility->facility_name }}</li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     @endforeach
